@@ -4,13 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BillingComponent } from './components/billing/billing.component';
+import { InventoryComponent } from './components/inventory/inventory.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    BillingComponent,
+    InventoryComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
